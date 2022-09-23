@@ -474,7 +474,7 @@ article h2 {
   transition: 200ms;
 }
 
-.cop26-1 :hover {
+.cop26-1:hover {
   filter: none;
   transform: translateX(5px);
 }
