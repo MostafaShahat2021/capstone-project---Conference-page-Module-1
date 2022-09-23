@@ -22,7 +22,8 @@
 - Add About page.
 - Use images and backgrounds to enhance the look of the website.
 - Add Desktop version with media queries.
-- Add Mobile Menu
+- Add Mobile Menu.
+- Add Fixed nav bar.
 - When the user click the close button, the mob-menu disappears.
 - Add JavaScript array of objects to store all of the projects information.
 - Add function to creat Featured Speakers section dynamically using the information stored in the JavaScript array.

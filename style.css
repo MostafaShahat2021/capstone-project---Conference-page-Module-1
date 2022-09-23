@@ -840,7 +840,6 @@ article h2 {
   }
 
   .article-1-about {
-    border: 1px solid red;
     margin-top: 2rem;
     width: 80%;
     height: auto;
@@ -897,7 +896,6 @@ article h2 {
   }
 
   .white p {
-    border: 1px solid red;
     width: 52%;
   }
 }
