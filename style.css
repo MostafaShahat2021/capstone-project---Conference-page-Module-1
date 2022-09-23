@@ -13,7 +13,8 @@ ul {
 }
 
 /* ========== mobile-veiw =============== */
-/*=========== first section Home page ======== */
+
+/* =========== first section Home page ======== */
 
 .main-section {
   background-image: url(img/mobile_intro_bg.png);
@@ -28,6 +29,17 @@ ul {
 
 .main-section-article {
   margin-top: 4rem;
+}
+
+article h2 {
+  font-size: x-large;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+article h1,
+article h2 {
+  color: #ec5342;
 }
 
 .main-section-article h1,
@@ -47,9 +59,10 @@ ul {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-left: 2rem;
-  width: 80%;
-  text-align: center;
   background-color: white;
+  width: 80%;
+  height: 38vh;
+  text-align: left;
 }
 
 #hamburger {
@@ -78,23 +91,6 @@ ul {
   display: block;
 }
 
-article h1,
-article h2 {
-  color: #ec5342;
-}
-
-article h2 {
-  font-size: x-large;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.article-1 {
-  width: 80;
-  height: 38vh;
-  text-align: left;
-}
-
 .date {
   color: #272a31d3;
   font-size: x-large;
@@ -112,7 +108,7 @@ article h2 {
   margin-left: 1rem;
 }
 
-/*======== second section  Home Page ===============*/
+/* ======== second section  Home Page =============== */
 
 .second-section {
   background-color: #262930;
@@ -154,16 +150,24 @@ article h2 {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  gap: rem;
   padding: 1rem;
   width: 90%;
-  text-align: center;
+}
+
+.third-section .card {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .second-section .card:hover {
   border: 1px solid white;
   opacity: 1;
 }
+
 .card .title {
   color: #ec5342;
   font-size: large;
@@ -177,14 +181,9 @@ article h2 {
 }
 
 .join {
-  border: 1px solid blue;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-}
-
-.join button:hover {
-  transition: all 0.5s 0s ease;
 }
 
 .second-section button {
@@ -197,6 +196,10 @@ article h2 {
   font-weight: 700;
 }
 
+.join button:hover {
+  transition: all 0.5s 0s ease;
+}
+
 .second-section button:hover {
   background-color: aliceblue;
   color: #ec5342;
@@ -205,28 +208,23 @@ article h2 {
 .second-section a {
   display: none;
 }
-/*======== Third section  Home Page ===============*/
+
+/* ======== Third section  Home Page =============== */
 .third-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .third-section h2 {
   width: 100%;
   margin: 1rem auto;
   text-align: center;
 }
+
 .third-section img {
   width: 35%;
-}
-.third-section .card {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 1rem;
-  margin: 1rem;
 }
 
 .card-title {
@@ -258,6 +256,7 @@ article h2 {
   justify-content: center;
   align-items: center;
 }
+
 .featured .hr-3 {
   color: #ec5342;
   width: 20%;
@@ -273,7 +272,6 @@ article h2 {
 }
 
 .more-btn .btn {
-  border: 1px solid red;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -318,6 +316,7 @@ article h2 {
   border: none;
   background: none;
 }
+
 #close:hover {
   color: #ddd;
   transition: all 0.5s 0s ease;
@@ -360,6 +359,7 @@ article h2 {
   align-items: center;
   border-bottom: 1px solid #ddd;
 }
+
 .portfolio-link-a:visited {
   color: #272a31;
 }
@@ -371,12 +371,14 @@ article h2 {
 .new-link {
   transition: all 0.5s 0s ease;
 }
+
 .new-link:hover {
   padding-left: 20px;
 }
 
 /* ========== mobile-veiw =============== */
-/*=========== first section About page ======== */
+
+/* =========== first section About page ======== */
 
 .about-section {
   background-image: url(img/mobile_intro_bg.png);
@@ -412,6 +414,7 @@ article h2 {
   text-align: center;
   margin-top: 3rem;
 }
+
 .place-about {
   border-bottom: 1px solid #272a31;
   width: fit-content;
@@ -431,6 +434,7 @@ article h2 {
 .hr-about-15 {
   display: none;
 }
+
 .h1-about {
   width: 100%;
   margin-top: 2rem;
@@ -466,12 +470,11 @@ article h2 {
   display: block;
   width: 60%;
   margin: 1rem auto;
-  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
-    saturate(600%) contrast(0.8);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   transition: 200ms;
 }
 
-.cop26-1:hover {
+.cop26-1 :hover {
   filter: none;
   transform: translateX(5px);
 }
@@ -498,6 +501,7 @@ article h2 {
   margin: 1rem auto;
   text-align: center;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-evenly;
@@ -540,19 +544,12 @@ article h2 {
   display: none;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
 .top {
   display: none;
 }
 
 /* ======================================================================= */
+
 /*  media queries desktop version */
 
 @media only screen and (min-width: 768px) {
@@ -560,6 +557,7 @@ a:active {
   .menu-container {
     display: none;
   }
+
   .top {
     position: fixed;
     top: 0;
@@ -687,7 +685,7 @@ a:active {
   }
 
   /* /======Second Section============== */
-  
+
   .second-section {
     flex-direction: row;
     justify-content: center;
@@ -713,6 +711,13 @@ a:active {
     padding: 1rem;
   }
 
+  .third-section .card {
+    width: 40%;
+    height: 20vw;
+    font-size: small;
+    padding: 1rem;
+  }
+
   .second-section .card:hover {
     border: 1px solid white;
     opacity: 1;
@@ -722,6 +727,7 @@ a:active {
     width: 100%;
     margin: 1rem;
   }
+
   .hr-about-1 {
     width: 9%;
     margin-top: -2rem;
@@ -738,10 +744,19 @@ a:active {
   .card img {
     width: 50%;
   }
+
   .card .title {
     font-size: medium;
     font-weight: 400;
     width: 100%;
+  }
+
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
   }
 
   .second-section a {
@@ -760,6 +775,7 @@ a:active {
   .second-section button {
     display: none;
   }
+
   /* =========  Thired Section  ================= */
   .third-section {
     flex-direction: row;
@@ -770,16 +786,10 @@ a:active {
     width: 100%;
   }
 
-  .third-section .card {
-    width: 40%;
-    height: 20wv;
-    font-size: small;
-    padding: 1rem;
-  }
-
   .third-section .card img {
     width: 40%;
   }
+
   .more-btn {
     display: none;
   }
@@ -856,6 +866,7 @@ a:active {
   .art-logo {
     width: auto;
   }
+
   .articl-2 {
     margin-bottom: 2rem;
   }
