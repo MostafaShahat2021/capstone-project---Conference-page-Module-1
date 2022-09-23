@@ -1,6 +1,6 @@
 # capstone-project-Conference-page-Module-1
-HTML/CSS JavaScript capstone project-2022 United Nations Climate Change Summit-page
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet) HTML/CSS JavaScript capstone project-2022 United Nations Climate Change Summit-page
+
 # Climate Change Summit
 
 ## Live Demo:
