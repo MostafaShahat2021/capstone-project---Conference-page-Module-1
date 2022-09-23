@@ -361,7 +361,7 @@ article h2 {
 }
 
 .portfolio-link-a:visited {
-  color: #272a31;
+  color: #d3d3d3;
 }
 
 .portfolio-link-a:hover {
@@ -760,9 +760,10 @@ article h2 {
   a,
   a:hover,
   a:focus,
-  a:active {
+  a:active,
+  a:visited {
     text-decoration: none;
-    color: inherit;
+    color: #d3d3d3;
   }
 
   .second-section a {

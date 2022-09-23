@@ -12,6 +12,7 @@
 - HTML(HTML-5).
 - CSS(Flexbox - grid).
 - javaScript (Vanilla JS).
+- GtHub.
 
 ### In this project we :
 - Add Linters for HTML/CSS.
@@ -27,6 +28,9 @@
 - When the user click the close button, the mob-menu disappears.
 - Add JavaScript array of objects to store all of the projects information.
 - Add function to creat Featured Speakers section dynamically using the information stored in the JavaScript array.
+
+## acknowledgement:
+    - Original work designed by [Cindy Shin](https://www.behance.net/adagio07)
 
 ## Getting Started
 
