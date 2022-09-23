@@ -608,6 +608,7 @@ article h2 {
   .main-section-article {
     margin-left: 3rem;
     height: 100vh;
+    margin-top: 1rem;
   }
 
   .main-section-article h1 {
@@ -627,11 +628,13 @@ article h2 {
     margin-top: -1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 4rem;
   }
 
   .article-1 {
     background-color: whitesmoke;
     width: 54%;
+    height: 25vh;
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
