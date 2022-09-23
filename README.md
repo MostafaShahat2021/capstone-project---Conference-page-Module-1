@@ -8,7 +8,8 @@
 [Live Demo Link](https://mostafashahat2021.github.io/capstone-project---Conference-page-Module-1/)
 
 ## Loom Video:
-    - [Loom Video](https://www.loom.com/share/885006bb25df491dbcfd4ca452d3bec1)
+
+[Loom Video Link](https://www.loom.com/share/885006bb25df491dbcfd4ca452d3bec1)
 
  ## Built With
 
