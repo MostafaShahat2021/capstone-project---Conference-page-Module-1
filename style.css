@@ -574,6 +574,10 @@ article h2 {
     padding-right: 1rem;
   }
 
+  .top-logo:hover {
+    color: #ec5342;
+  }
+
   .top-logo-img {
     background-color: #383a3f;
     color: #d3d3d3;
