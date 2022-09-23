@@ -32,6 +32,7 @@
 - When the user click the close button, the mob-menu disappears.
 - Add JavaScript array of objects to store all of the projects information.
 - Add function to creat Featured Speakers section dynamically using the information stored in the JavaScript array.
+- Add loom video.
 
 ## acknowledgement:
     - Original work designed by [Cindy Shin](https://www.behance.net/adagio07)
