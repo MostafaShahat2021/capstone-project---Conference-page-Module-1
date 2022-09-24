@@ -506,8 +506,9 @@ article h2 {
 
 .footer-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #3c3f46;
+  /* gap: 5px; */
 }
 
 .top li {
@@ -516,7 +517,7 @@ article h2 {
 
 .footer-img {
   display: block;
-  width: 8%;
+  /* width: 4%; */
   margin: 5px auto;
 }
 
