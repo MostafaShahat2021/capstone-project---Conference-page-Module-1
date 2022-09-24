@@ -145,7 +145,6 @@ article h2 {
 }
 
 .second-section .card {
-  border: 1px solid red;
   background-color: #3c3f46;
   opacity: 0.7;
   display: flex;
