@@ -61,7 +61,7 @@ We use Linters for HTML/CSS to cheack this project.
 👤 **developed by Microverse student Mostafa Shahat**
 
 - GitHub: [@MostafaShahat2021](https://github.com/MostafaShahat2021)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mostafa-shahat-a75810208/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mostafa-shahat/)
 
 ## 🤝 Contributing
 
